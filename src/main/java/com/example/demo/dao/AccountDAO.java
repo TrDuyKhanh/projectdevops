@@ -19,5 +19,4 @@ public class AccountDAO {
         Session session = this.sessionFactory.getCurrentSession();
         return session.find(Account.class, userName);
     }
- 
 }
